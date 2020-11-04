@@ -1,0 +1,7 @@
+
+{
+    "mongoConfig": {
+      "serverUrl": "mongodb://localhost:27017/",
+      "database": "Liu_Feng_lab4"
+    }
+  }

@@ -1,0 +1,20 @@
+{
+  "name": "lab4",
+  "version": "1.0.0",
+  "description": "Feng Liu's Lab4 module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Feng Liu 10446406",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.6.2"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "private": true
+}

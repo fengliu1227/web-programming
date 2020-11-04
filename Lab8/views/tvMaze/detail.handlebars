@@ -1,0 +1,51 @@
+<body>
+    <main>
+    <div> 
+  <h1>{{Tv.name}}</h1> 
+  <img alt= {{title}} src= {{Tv.image.medium}}>
+    <dt>Language</dt> 
+    {{#if Tv.language}}
+    <dd>{{Tv.language}}</dd>
+    {{else}}
+    <dd>NULL</dd> 
+    {{/if}}
+
+    <dt>Genres</dt> 
+    {{#if Tv.genres}}
+    <dd> 
+      <ul> 
+        {{#each Tv.genres}} 
+        <li>{{{this}}}</li> 
+        {{/each}}
+      </ul> 
+    </dd> 
+    {{else}}
+    <dd>NULL</dd> 
+    {{/if}}
+
+    <dt>Average Rating</dt> 
+    {{#if Tv.rating.average}}
+    <dd>{{Tv.rating.average}}</dd>
+    {{else}}
+    <dd>NULL</dd> 
+    {{/if}}
+
+    <dt>Network</dt> 
+    {{#if Tv.network.name}}
+    <dd>{{Tv.network.name}}</dd>
+    {{else}}
+    <dd>NULL</dd> 
+    {{/if}}
+
+    <dt>Summary</dt> 
+    {{#if Tv.summary}}
+    <dd>{{{Tv.summary}}}</dd>
+    {{else}}
+    <dd>NULL</dd> 
+    {{/if}}
+
+  </dl> 
+</div> 
+<a href="/">Make another search</a>
+</main>
+</body>

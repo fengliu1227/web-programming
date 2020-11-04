@@ -1,0 +1,17 @@
+{
+  "name": "lab8",
+  "version": "1.0.0",
+  "description": "Feng Liu's Lab8 module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Feng Liu",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "expres": "0.0.5",
+    "express-handlebars": "^5.2.0"
+  }
+}
