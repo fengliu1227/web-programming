@@ -1,0 +1,17 @@
+{
+    "name": "lab9",
+    "version": "1.0.0",
+    "description": "Feng Liu's Lab9 module",
+    "main": "app.js",
+    "scripts": {
+        "test": "node app.js",
+        "start": "node app.js"
+    },
+    "author": "Feng Liu",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^5.2.0",
+        "handlebars": "^4.7.6"
+    }
+}
