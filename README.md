@@ -1,6 +1,6 @@
-# web-programming</br>
+# web-programming
 
-## I used:</br>
+## Tag:
 js (obsultly)</br>
 node.js</br>
 mongoDB</br>
@@ -17,3 +17,7 @@ Install axios: $npm i axios</br>
 Install Express: $ npm install express --save</br>
 Install Express-handlebars: $ npm install express-handlebars</br>
 Install Handlebars: $ npm install --save handlebars</br>
+
+## About me:
+Graduate student in Stevens institute of technology</br>
+Major in Computer Eningeering</br>
