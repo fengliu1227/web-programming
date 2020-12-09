@@ -5,6 +5,8 @@ module.exports = {
 };
 
 async function main() {
-    console.log(await tvMazeData.getTvMazeById("1"));
+    const data = await tvMazeData.getTvMazeById(1);
+    console.log(data);
 }
-main();
+
+// main();

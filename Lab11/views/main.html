@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="UTF-8">
+    <title>TV Maze</title>
+    <link rel="stylesheet" href="/public/css/main.css">
+    <link rel="icon" href="data:image/ico;base64,aWNv">
+</head>
+
+<body>
+    <header>
+        <h1>TV Maze</h1>
+    </header>
+    <main>
+        <form method="POST" id="searchForm">
+            <label for="text_input"></label>
+            <input type="text" id="search_term">
+            <button id="submitButton" type="submit">Submit</button>
+        </form>
+
+        <ul id="showList" class="text-center" hidden="hidden"></ul>
+
+        <div id="show" class="itemList" hidden="hidden"></div>
+        <a id="homeLink" class="div-left" href="/" hidden>Back to All Shows!!!</a>
+    </main>
+    <footer class="text-center">
+        <div>
+            <p>Posted by Feng Liu</p>
+            <p>10446406</p>
+            <p>CS546B-2020F-Lab11</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="/public/js/script.js"></script>
+</body>
+
+</html>

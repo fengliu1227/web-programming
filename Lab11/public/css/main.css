@@ -8,27 +8,43 @@ body {
 }
 
 body {
-    background: #2a2c36;
+    background: #dadce6;
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+main {
+    position: absolute;
+    top: 80px;
+    bottom: 100px;
+    right: 0;
+    left: 0;
+    overflow: auto;
+    background: #dadce6;
 }
 
 header {
     border-bottom: 1px solid #adb2eb;
-    /* position: fixed; */
-    top: 0;
+    position: fixed;
+    top: 0px;
+    height: 80px;
     width: 100%;
     text-align: center;
+    background: #dadce6;
 }
 
 footer {
+    position: absolute;
     border-top: 1px solid #adb2eb;
-    position: fixed;
-    bottom: 0;
+    bottom: 0px;
+    height: 80px;
     width: 100%;
+    background: #dadce6;
 }
 
-footer div {
-    color: #c0c4ec;
+footer p {
+    color: #2c0519;
+    font-size: 8pt;
+    font-weight: bold;
 }
 
 .is-prime {
@@ -47,7 +63,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: rgb(231, 182, 182);
+    color: rgb(46, 6, 6);
     margin-bottom: 5px;
     /* text-align: center; */
 }
@@ -88,6 +104,26 @@ label {
 #error-container {
     color: rgb(211, 12, 12);
     text-align: center;
+}
+
+.div-right {
+    width: 65%;
+    text-align: left;
+    float: right;
+    clear: right;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.div-left {
+    width: 35%;
+    text-align: left;
+    float: left;
+    clear: left;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .text-center {
@@ -207,7 +243,7 @@ label {
 }
 
 .text-center {
-    color: #adb2eb;
+    color: #16080a;
     text-align: center!important
 }
 

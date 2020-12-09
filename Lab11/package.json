@@ -1,0 +1,15 @@
+{
+  "name": "lab11",
+  "version": "1.0.0",
+  "description": "Feng Liu's lab11 module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Feng Liu",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "express": "^4.17.1"
+  }
+}

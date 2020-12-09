@@ -8,12 +8,12 @@ body {
 }
 
 body {
-    background: #2a2c36;
+    background: #dfccdc;
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 header {
-    border-bottom: 1px solid #adb2eb;
+    border-bottom: 1px solid #29292e;
     /* position: fixed; */
     top: 0;
     width: 100%;
@@ -21,14 +21,22 @@ header {
 }
 
 footer {
-    border-top: 1px solid #adb2eb;
+    border-top: 1px solid #25252c;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
 footer div {
-    color: #c0c4ec;
+    color: #1f1f22;
+}
+
+dl dd {
+    color: #555868;
+}
+
+dl dt {
+    color: #080808;
 }
 
 .is-prime {
@@ -47,7 +55,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: rgb(231, 182, 182);
+    color: rgb(2, 2, 2);
     margin-bottom: 5px;
     /* text-align: center; */
 }
@@ -178,6 +186,11 @@ label {
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px
+}
+
+.text-custom {
+    margin-right: 5px;
+    margin-left: 5px
 }
 
 .text-monospace {
